@@ -15,7 +15,7 @@ public class EmailSendingServlet extends HttpServlet {
 	private String host = "smtp.gmail.com";
 	private String port = "587";
 	private String user = "satyabratedu@gmail.com";
-	private String pass = "satya@00";
+	private String pass = "********";
 	private static final long serialVersionUID = 1L;
 	public EmailSendingServlet() {
 		super();
