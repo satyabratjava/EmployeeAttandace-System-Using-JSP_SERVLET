@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="register.css">
+<script type="text/javascript" src="signupValidation.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+<div class="user">
+    <form name="myform" class="form" action="NewEmployeeRegisterServlet" method="post" onsubmit="Signupvalidateform()">
+        <div class="form__group">
+            <input type="text" placeholder="Name" class="form__input" name="name"/>
+        </div>
+        <div class="form__group">
+            <input type="password" placeholder="Password" class="form__input" name="password"/>
+        </div>
+         <div class="form__group">
+            <input type="email" placeholder="Email" class="form__input" name="mail" />
+        </div>
+        <button class="btn">Register</button>
+        </form>
+        </div>
+</body>
+</html>
